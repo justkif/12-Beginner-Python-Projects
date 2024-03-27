@@ -1,6 +1,6 @@
-print("This Madlibs is inspired by Mad Lib Theater with Benedict Cumberbatch on The Tonight Show Starring Jimmy Fallon.")
+print("\nThis Madlibs is inspired by Mad Lib Theater with Benedict Cumberbatch on The Tonight Show Starring Jimmy Fallon.")
 
-male_name = input("Male name: ")
+male_name = input("\nMale name: ")
 fav_teacher = input("Name of your favorite teacher(Add Ms or Mr): ")
 exclamation = input("Exclamation: ")
 number = input("Number: ")
@@ -30,10 +30,12 @@ mad_libs = f"\n\nBenedict: Hello, I'm detective {male_name}. And you are? \
 \nBenedict: Then why the security camera footage show you {verb_ing} just {distance} away from the crime scene? \
 \nBenedict: Alright. Alright. I'm full with playing games. Where are you from? \
 \nJimmy: {country}. \
-\nBenedict: Yeah. Just as I suspected. Do you know one of the best part about being a detective is that I get to lock up criminals like you and go home to my children and my pet {animal}. And say {famous_quote}! \
+\nBenedict: Yeah. Just as I suspected. \
+\nDo you know one of the best part about being a detective is that I get to lock up criminals like you and go home to my children and my pet {animal}. \
+\nAnd say {famous_quote}! \
 \nJimmy: Fine, I did this. I committed the robbery. But I only did this because i needed the money to buy myself {body_part_2} implant. \
 \nBenedict: I knew it all along. I knew it all along! And everytime I saw a crime, I'd like to sing my favorite song {children_song}. \
 \nJimmy: You have a {adj} voice. I LOVE YOU. \
-\n\nEND SCENE"
+\n\nEND SCENE\n"
 
 print(mad_libs)
