@@ -8,14 +8,14 @@ def guess(x):
     feedback = ''
 
     while feedback != 'c':
-        if low != high:
+        if low < high:
             num = random.randint(low, high)
         else:
             num = low
 
         feedback = input(f"Is {num} too high(h), too low(l) or correct(c)?: ")
 
-        if low != high:
+        if low < high:
             if feedback == 'l':
                 low = num + 1
             elif feedback == 'h':
